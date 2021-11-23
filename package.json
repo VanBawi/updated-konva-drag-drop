@@ -1,0 +1,61 @@
+{
+	"name": "react-konva-mobile",
+	"version": "1.0.3",
+	"description": "Simple react image drag and drop with a little more extra features based on konva.",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build-lib": "rollup -c"
+	},
+	"author": "Jack Van",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VanBawi/konva-drag-drop-mobile.git"
+	},
+	"keywords": [
+		"konva",
+		"sticker",
+		"drag and drop",
+		"drag and drop mobile",
+		"zoom",
+		"canvas image customize",
+		"konva for mobile"
+	],
+	"devDependencies": {
+		"@babel/cli": "^7.15.7",
+		"@babel/core": "^7.15.8",
+		"@babel/preset-env": "^7.15.8",
+		"@babel/preset-react": "^7.14.5",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"dependencies": {
+		"konva": "^8.1.1",
+		"react-alice-carousel": "^2.5.1",
+		"react-konva": "^17.0.2-5",
+		"use-image": "^1.0.8",
+		"@babel/polyfill": "^7.12.1",
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.2"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
